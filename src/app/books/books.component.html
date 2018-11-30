@@ -1,0 +1,21 @@
+<h2>Book Listing</h2>
+
+<div class="bookDetails" *ngFor="let book of books">
+  <div class="row">
+    <div class="col col-md-12">
+      <a routerLink="/detail/{{book.id}}" class="bookTitle">
+        {{book.title}}
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-md-12">
+      <span class="bookIdLabel">Product ID: </span><span class="bookId">{{book.id}}</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-md-12">
+      <span class="bookDesc">{{book.desc}}</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+.bookDesc {
+  font-style: italic;
+}
+
+.bookDetails {
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0px;
+  padding-bottom: 20px;
+}
+
+.bookIdLabel {
+  font-weight: 600;
+}

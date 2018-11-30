@@ -1,0 +1,6 @@
+<nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark" *ngIf="messageService.messages.length">
+  <a class="navbar-brand" (click)="messageService.clear()"><i class="oi oi-circle-x"></i> Message: </a>
+  <div *ngFor='let message of messageService.messages' class="row">
+    <div class="col col-md-12 message"> {{message}} </div>
+  </div>
+</nav>

@@ -1,0 +1,10 @@
+.navbar.fixed-bottom .navbar-brand {
+  color: red;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.message {
+  color: #fff;
+  font-size: 0.9rem;
+}
